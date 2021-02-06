@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    max-width: 80%;
+}
+
+/* body section {
+    max-width: 80%;
+} */
+
+:root {
+    --bright: purple;
+    --text: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    color: var(--bright);
+    font-size: xx-large;
+    
+}
+
+header p {
+    padding: 10px;
+    color: var(--text);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    border-style: dotted;
+    border-color: white;
+    margin: 10px;
+    
+    
+    
+
+}
+
+.card h2 {
+    color: var(--bright);
+    border-style: solid;
+    border-color: var(--text);
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.card p {
+    
+    color: var(--bright);    
+}
+.codebox {
+
+}
+
+code {
+    color: var(--text);
+}
